@@ -3,8 +3,8 @@ pipeline {
 
     // Use environment variables to make the script easy to update
     environment {
-        IMAGE_NAME = "css-project-image"
-        CONTAINER_NAME = "css-container"
+        IMAGE_NAME = "web-application-image"
+        CONTAINER_NAME = "web-application-container"
         EXTERNAL_PORT = "3001"
     }
 
@@ -37,7 +37,7 @@ pipeline {
 
     post {
         success {
-            echo "Successfully deployed! Access your site at http://<your-aws-ip>:${EXTERNAL_PORT}"
+            echo "Successfully deployed! Access your site at http://http://13.203.74.175/:${EXTERNAL_PORT}"
         }
         failure {
             echo "Pipeline failed. Check the console output for errors."
