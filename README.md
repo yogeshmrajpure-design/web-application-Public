@@ -1,6 +1,3 @@
-# web-application-Public
-This is Xmas countdown Repo
-
 # 🎄 Xmas Countdown - AWS Jenkins CI/CD Pipeline
 
 This project is a modern, responsive CSS and JavaScript countdown timer deployed using a fully automated DevOps pipeline.
