@@ -5,7 +5,7 @@ pipeline {
     environment {
         IMAGE_NAME = "css-project-image"
         CONTAINER_NAME = "css-container"
-        EXTERNAL_PORT = "3000"
+        EXTERNAL_PORT = "3001"
     }
 
     stages {
