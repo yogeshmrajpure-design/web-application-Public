@@ -8,7 +8,7 @@ RUN rm -rf ./*
 
 # Copy the contents of your specific project folder
 # Note the path: we go into the folder where index.html actually lives
-COPY ["css Project/templatemo_605_xmas_countdown/", "."]
+COPY css_project/templatemo_605_xmas_countdown/ .
 
 # Ensure permissions are correct
 RUN chmod -R 755 /usr/share/nginx/html
