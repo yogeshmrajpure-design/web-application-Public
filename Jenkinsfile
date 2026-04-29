@@ -28,7 +28,7 @@ pipeline {
                     docker rm ${CONTAINER_NAME} || true
                     
                     # Run the new container
-                    # We map host port 3000 to Nginx container port 80
+                    # We map host port 3001 to Nginx container port 80
                     docker run -d -p ${EXTERNAL_PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}
                 '''
             }
