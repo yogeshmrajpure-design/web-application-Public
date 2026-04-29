@@ -38,7 +38,7 @@ function createParticles() {
 
 
 function updateCountdown() {
-   const christmas = new Date('December 25, 2025 18:00:00').getTime();
+   const christmas = new Date('December 31, 2025 18:00:00').getTime();
    const now = new Date().getTime();
    const distance = christmas - now;
 
